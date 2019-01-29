@@ -1,0 +1,9 @@
+C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\EstudoXML\bin\Debug\EstudoXML.exe.config
+C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\EstudoXML\obj\Debug\EstudoXML.csprojResolveAssemblyReference.cache
+C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\EstudoXML\obj\Debug\EstudoXML.frmAgenda.resources
+C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\EstudoXML\obj\Debug\EstudoXML.Properties.Resources.resources
+C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\EstudoXML\obj\Debug\EstudoXML.csproj.GenerateResource.Cache
+C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\EstudoXML\bin\Debug\EstudoXML.exe
+C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\EstudoXML\bin\Debug\EstudoXML.pdb
+C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\EstudoXML\obj\Debug\EstudoXML.exe
+C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\EstudoXML\obj\Debug\EstudoXML.pdb

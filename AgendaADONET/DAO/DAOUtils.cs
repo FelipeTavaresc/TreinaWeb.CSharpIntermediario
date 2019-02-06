@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AgendaADONET.DAO
 {
-    class DAOUtils
+    public class DAOUtils
     {
         public static DbConnection GetConexao()
         {

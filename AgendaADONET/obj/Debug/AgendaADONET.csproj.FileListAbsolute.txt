@@ -1,1 +1,9 @@
 C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\AgendaADONET\bin\Debug\AgendaADONET.exe.config
+C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\AgendaADONET\obj\Debug\AgendaADONET.csprojResolveAssemblyReference.cache
+C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\AgendaADONET\obj\Debug\AgendaADONET.frmAgenda.resources
+C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\AgendaADONET\obj\Debug\AgendaADONET.Properties.Resources.resources
+C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\AgendaADONET\obj\Debug\AgendaADONET.csproj.GenerateResource.Cache
+C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\AgendaADONET\bin\Debug\AgendaADONET.exe
+C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\AgendaADONET\bin\Debug\AgendaADONET.pdb
+C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\AgendaADONET\obj\Debug\AgendaADONET.exe
+C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\AgendaADONET\obj\Debug\AgendaADONET.pdb

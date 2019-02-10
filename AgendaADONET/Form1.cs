@@ -1,4 +1,5 @@
-﻿using AgendaADONET.DAO;
+﻿using AgendaADONET.Classes;
+using AgendaADONET.DAO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -37,6 +38,27 @@ namespace AgendaADONET
             DataTable dataTable = contatoDAO.GetContatos();
             dgvAgenda.DataSource = dataTable;
             dgvAgenda.Refresh();
+        }
+
+        private void btnAdicionar_Click(object sender, EventArgs e)
+        {
+            frmIncluirAlterarContato form = new frmIncluirAlterarContato();
+            form.ShowDialog();
+            CarregarDataGridView();
+        }
+
+        private void btnAlterar_Click(object sender, EventArgs e)
+        {
+            Contato contato = new Contato
+            {
+                Id = (int)dgvAgenda.CurrentRow.Cells[0].Value,
+                Nome = dgvAgenda.CurrentRow.Cells[1].Value.ToString(),
+                Email = dgvAgenda.CurrentRow.Cells[2].Value.ToString(),
+                Telefone = (int)dgvAgenda.CurrentRow.Cells[3].Value
+            };
+            frmIncluirAlterarContato form = new frmIncluirAlterarContato(contato);
+            form.ShowDialog();
+            CarregarDataGridView();
         }
     }
 }

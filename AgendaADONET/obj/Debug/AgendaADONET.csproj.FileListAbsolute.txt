@@ -8,3 +8,4 @@ C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpI
 C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\AgendaADONET\obj\Debug\AgendaADONET.exe
 C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\AgendaADONET\obj\Debug\AgendaADONET.pdb
 C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\AgendaADONET\obj\Debug\AgendaADONET.frmIncluirAlterarContato.resources
+C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\AgendaADONET\bin\Debug\MySql.Data.dll

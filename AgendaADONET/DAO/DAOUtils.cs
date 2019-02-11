@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.Data.Common;
 using System.Data.SqlClient;
@@ -12,7 +13,8 @@ namespace AgendaADONET.DAO
     {
         public static DbConnection GetConexao()
         {
-            DbConnection conexao = new SqlConnection(@"Server=.\SQLEXPRESS;Database=TreinaWebCSharpIntermediario;User Id=sa;Password=865522;");
+            //DbConnection conexao = new SqlConnection(@"Server=.\SQLEXPRESS;Database=TreinaWebCSharpIntermediario;User Id=sa;Password=865522;");
+            DbConnection conexao = new MySqlConnection(@"Server=localhost;Database=treinawebcsharpintermediario;Uid=root;Pwd=865522;");
             conexao.Open();
             return conexao;
         }

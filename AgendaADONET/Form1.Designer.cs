@@ -32,12 +32,24 @@
             this.btnAdicionar = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
             this.btnExluir = new System.Windows.Forms.Button();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Email = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Telefone = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAgenda)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvAgenda
             // 
+            this.dgvAgenda.AllowUserToAddRows = false;
+            this.dgvAgenda.AllowUserToDeleteRows = false;
+            this.dgvAgenda.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
             this.dgvAgenda.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAgenda.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID,
+            this.Nome,
+            this.Email,
+            this.Telefone});
             this.dgvAgenda.Location = new System.Drawing.Point(12, 12);
             this.dgvAgenda.MultiSelect = false;
             this.dgvAgenda.Name = "dgvAgenda";
@@ -76,6 +88,41 @@
             this.btnExluir.UseVisualStyleBackColor = true;
             this.btnExluir.Click += new System.EventHandler(this.btnExluir_Click);
             // 
+            // ID
+            // 
+            this.ID.DataPropertyName = "ID";
+            this.ID.HeaderText = "Id";
+            this.ID.Name = "ID";
+            this.ID.ReadOnly = true;
+            this.ID.Visible = false;
+            // 
+            // Nome
+            // 
+            this.Nome.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.Nome.DataPropertyName = "NOME";
+            this.Nome.HeaderText = "Nome";
+            this.Nome.Name = "Nome";
+            this.Nome.ReadOnly = true;
+            this.Nome.Width = 60;
+            // 
+            // Email
+            // 
+            this.Email.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.Email.DataPropertyName = "EMAIL";
+            this.Email.HeaderText = "Email";
+            this.Email.Name = "Email";
+            this.Email.ReadOnly = true;
+            this.Email.Width = 57;
+            // 
+            // Telefone
+            // 
+            this.Telefone.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.Telefone.DataPropertyName = "TELEFONE";
+            this.Telefone.HeaderText = "Telefone";
+            this.Telefone.Name = "Telefone";
+            this.Telefone.ReadOnly = true;
+            this.Telefone.Width = 74;
+            // 
             // frmAgenda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -100,6 +147,10 @@
         private System.Windows.Forms.Button btnAdicionar;
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.Button btnExluir;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nome;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Email;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Telefone;
     }
 }
 

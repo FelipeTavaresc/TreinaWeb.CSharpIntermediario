@@ -59,5 +59,14 @@ namespace AgendaADONET.DAO
             comando.Parameters.Add(DAOUtils.GetParametro("@id", contato.Id));
             comando.ExecuteNonQuery();
         }
+
+        public string ContarUsuarios()
+        {
+            DbConnection conexao = DAOUtils.GetConexao();
+            DbCommand comando = DAOUtils.GetComando(conexao);
+            comando.CommandType = CommandType.Text;
+            comando.CommandText = "SELECT COUNT(*) FROM CONTATOS";
+            return comando.ExecuteScalar().ToString();
+        }
     }
 }

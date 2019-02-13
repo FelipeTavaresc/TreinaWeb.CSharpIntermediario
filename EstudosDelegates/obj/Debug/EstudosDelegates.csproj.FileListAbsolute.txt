@@ -7,3 +7,12 @@ c:\users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpI
 c:\users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\EstudosDelegates\obj\Debug\EstudosDelegates.csproj.GenerateResource.Cache
 c:\users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\EstudosDelegates\obj\Debug\EstudosDelegates.exe
 c:\users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\EstudosDelegates\obj\Debug\EstudosDelegates.pdb
+C:\temp\TreinaWeb.CSharpIntermediario\EstudosDelegates\bin\Debug\EstudosDelegates.exe.config
+C:\temp\TreinaWeb.CSharpIntermediario\EstudosDelegates\bin\Debug\EstudosDelegates.exe
+C:\temp\TreinaWeb.CSharpIntermediario\EstudosDelegates\bin\Debug\EstudosDelegates.pdb
+C:\temp\TreinaWeb.CSharpIntermediario\EstudosDelegates\obj\Debug\EstudosDelegates.csprojResolveAssemblyReference.cache
+C:\temp\TreinaWeb.CSharpIntermediario\EstudosDelegates\obj\Debug\EstudosDelegates.frmCalculadora.resources
+C:\temp\TreinaWeb.CSharpIntermediario\EstudosDelegates\obj\Debug\EstudosDelegates.Properties.Resources.resources
+C:\temp\TreinaWeb.CSharpIntermediario\EstudosDelegates\obj\Debug\EstudosDelegates.csproj.GenerateResource.Cache
+C:\temp\TreinaWeb.CSharpIntermediario\EstudosDelegates\obj\Debug\EstudosDelegates.exe
+C:\temp\TreinaWeb.CSharpIntermediario\EstudosDelegates\obj\Debug\EstudosDelegates.pdb

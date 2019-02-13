@@ -38,6 +38,14 @@ namespace AgendaADONET
             DataTable dataTable = contatoDAO.GetContatos();
             dgvAgenda.DataSource = dataTable;
             dgvAgenda.Refresh();
+            CarregarStatusStrip();
+        }
+
+        private void CarregarStatusStrip()
+        {
+            ContatoDAO contatoDao = new ContatoDAO();
+            string quantidadeContatos = contatoDao.ContarUsuarios();
+            statusStrip1.Items[0].Text = quantidadeContatos.ToString() + " usuário(s)";
         }
 
         private void btnAdicionar_Click(object sender, EventArgs e)
@@ -60,5 +68,6 @@ namespace AgendaADONET
             form.ShowDialog();
             CarregarDataGridView();
         }
+
     }
 }

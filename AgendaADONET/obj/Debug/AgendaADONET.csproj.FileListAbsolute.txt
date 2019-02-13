@@ -9,3 +9,14 @@ C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpI
 C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\AgendaADONET\obj\Debug\AgendaADONET.pdb
 C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\AgendaADONET\obj\Debug\AgendaADONET.frmIncluirAlterarContato.resources
 C:\Users\felip\onedrive\documentos\visual studio 2013\Projects\TreinaWeb.CSharpIntermediario\AgendaADONET\bin\Debug\MySql.Data.dll
+C:\temp\TreinaWeb.CSharpIntermediario\AgendaADONET\bin\Debug\AgendaADONET.exe.config
+C:\temp\TreinaWeb.CSharpIntermediario\AgendaADONET\bin\Debug\AgendaADONET.exe
+C:\temp\TreinaWeb.CSharpIntermediario\AgendaADONET\bin\Debug\AgendaADONET.pdb
+C:\temp\TreinaWeb.CSharpIntermediario\AgendaADONET\bin\Debug\MySql.Data.dll
+C:\temp\TreinaWeb.CSharpIntermediario\AgendaADONET\obj\Debug\AgendaADONET.csprojResolveAssemblyReference.cache
+C:\temp\TreinaWeb.CSharpIntermediario\AgendaADONET\obj\Debug\AgendaADONET.frmAgenda.resources
+C:\temp\TreinaWeb.CSharpIntermediario\AgendaADONET\obj\Debug\AgendaADONET.frmIncluirAlterarContato.resources
+C:\temp\TreinaWeb.CSharpIntermediario\AgendaADONET\obj\Debug\AgendaADONET.Properties.Resources.resources
+C:\temp\TreinaWeb.CSharpIntermediario\AgendaADONET\obj\Debug\AgendaADONET.csproj.GenerateResource.Cache
+C:\temp\TreinaWeb.CSharpIntermediario\AgendaADONET\obj\Debug\AgendaADONET.exe
+C:\temp\TreinaWeb.CSharpIntermediario\AgendaADONET\obj\Debug\AgendaADONET.pdb

@@ -5,3 +5,9 @@ C:\Users\felip\OneDrive\Documentos\Visual Studio 2013\Projects\TreinaWeb.CSharpI
 C:\Users\felip\OneDrive\Documentos\Visual Studio 2013\Projects\TreinaWeb.CSharpIntermediario\EstudoGenerics\obj\Debug\EstudoGenerics.csproj.CoreCompileInputs.cache
 C:\Users\felip\OneDrive\Documentos\Visual Studio 2013\Projects\TreinaWeb.CSharpIntermediario\EstudoGenerics\obj\Debug\EstudoGenerics.exe
 C:\Users\felip\OneDrive\Documentos\Visual Studio 2013\Projects\TreinaWeb.CSharpIntermediario\EstudoGenerics\obj\Debug\EstudoGenerics.pdb
+C:\temp\TreinaWeb.CSharpIntermediario\EstudoGenerics\bin\Debug\EstudoGenerics.exe.config
+C:\temp\TreinaWeb.CSharpIntermediario\EstudoGenerics\bin\Debug\EstudoGenerics.exe
+C:\temp\TreinaWeb.CSharpIntermediario\EstudoGenerics\bin\Debug\EstudoGenerics.pdb
+C:\temp\TreinaWeb.CSharpIntermediario\EstudoGenerics\obj\Debug\EstudoGenerics.csprojResolveAssemblyReference.cache
+C:\temp\TreinaWeb.CSharpIntermediario\EstudoGenerics\obj\Debug\EstudoGenerics.exe
+C:\temp\TreinaWeb.CSharpIntermediario\EstudoGenerics\obj\Debug\EstudoGenerics.pdb

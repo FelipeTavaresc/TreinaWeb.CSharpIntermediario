@@ -29,14 +29,17 @@
         private void InitializeComponent()
         {
             this.dgvAgenda = new System.Windows.Forms.DataGridView();
-            this.btnAdicionar = new System.Windows.Forms.Button();
-            this.btnAlterar = new System.Windows.Forms.Button();
-            this.btnExluir = new System.Windows.Forms.Button();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Email = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Telefone = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnAdicionar = new System.Windows.Forms.Button();
+            this.btnAlterar = new System.Windows.Forms.Button();
+            this.btnExluir = new System.Windows.Forms.Button();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.stsInfoUsuarios = new System.Windows.Forms.ToolStripStatusLabel();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAgenda)).BeginInit();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dgvAgenda
@@ -56,37 +59,6 @@
             this.dgvAgenda.ReadOnly = true;
             this.dgvAgenda.Size = new System.Drawing.Size(478, 150);
             this.dgvAgenda.TabIndex = 0;
-            // 
-            // btnAdicionar
-            // 
-            this.btnAdicionar.Location = new System.Drawing.Point(12, 171);
-            this.btnAdicionar.Name = "btnAdicionar";
-            this.btnAdicionar.Size = new System.Drawing.Size(75, 23);
-            this.btnAdicionar.TabIndex = 1;
-            this.btnAdicionar.Text = "Adicionar";
-            this.btnAdicionar.UseVisualStyleBackColor = true;
-            this.btnAdicionar.Click += new System.EventHandler(this.btnAdicionar_Click);
-            // 
-            // btnAlterar
-            // 
-            this.btnAlterar.Location = new System.Drawing.Point(93, 171);
-            this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(75, 23);
-            this.btnAlterar.TabIndex = 2;
-            this.btnAlterar.Text = "Alterar";
-            this.btnAlterar.UseVisualStyleBackColor = true;
-            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
-            // 
-            // btnExluir
-            // 
-            this.btnExluir.Location = new System.Drawing.Point(174, 171);
-            this.btnExluir.Name = "btnExluir";
-            this.btnExluir.Size = new System.Drawing.Size(75, 23);
-            this.btnExluir.TabIndex = 3;
-            this.btnExluir.Text = "Excluir";
-            this.btnExluir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnExluir.UseVisualStyleBackColor = true;
-            this.btnExluir.Click += new System.EventHandler(this.btnExluir_Click);
             // 
             // ID
             // 
@@ -123,11 +95,59 @@
             this.Telefone.ReadOnly = true;
             this.Telefone.Width = 74;
             // 
+            // btnAdicionar
+            // 
+            this.btnAdicionar.Location = new System.Drawing.Point(12, 171);
+            this.btnAdicionar.Name = "btnAdicionar";
+            this.btnAdicionar.Size = new System.Drawing.Size(75, 23);
+            this.btnAdicionar.TabIndex = 1;
+            this.btnAdicionar.Text = "Adicionar";
+            this.btnAdicionar.UseVisualStyleBackColor = true;
+            this.btnAdicionar.Click += new System.EventHandler(this.btnAdicionar_Click);
+            // 
+            // btnAlterar
+            // 
+            this.btnAlterar.Location = new System.Drawing.Point(93, 171);
+            this.btnAlterar.Name = "btnAlterar";
+            this.btnAlterar.Size = new System.Drawing.Size(75, 23);
+            this.btnAlterar.TabIndex = 2;
+            this.btnAlterar.Text = "Alterar";
+            this.btnAlterar.UseVisualStyleBackColor = true;
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
+            // 
+            // btnExluir
+            // 
+            this.btnExluir.Location = new System.Drawing.Point(174, 171);
+            this.btnExluir.Name = "btnExluir";
+            this.btnExluir.Size = new System.Drawing.Size(75, 23);
+            this.btnExluir.TabIndex = 3;
+            this.btnExluir.Text = "Excluir";
+            this.btnExluir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnExluir.UseVisualStyleBackColor = true;
+            this.btnExluir.Click += new System.EventHandler(this.btnExluir_Click);
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.stsInfoUsuarios});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 206);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(502, 22);
+            this.statusStrip1.TabIndex = 4;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // stsInfoUsuarios
+            // 
+            this.stsInfoUsuarios.Name = "stsInfoUsuarios";
+            this.stsInfoUsuarios.Size = new System.Drawing.Size(118, 17);
+            this.stsInfoUsuarios.Text = "toolStripStatusLabel1";
+            // 
             // frmAgenda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(502, 206);
+            this.ClientSize = new System.Drawing.Size(502, 228);
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.btnExluir);
             this.Controls.Add(this.btnAlterar);
             this.Controls.Add(this.btnAdicionar);
@@ -137,7 +157,10 @@
             this.Text = "Agenda";
             this.Load += new System.EventHandler(this.frmAgenda_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAgenda)).EndInit();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -151,6 +174,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Nome;
         private System.Windows.Forms.DataGridViewTextBoxColumn Email;
         private System.Windows.Forms.DataGridViewTextBoxColumn Telefone;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel stsInfoUsuarios;
     }
 }
 
